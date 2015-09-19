@@ -46,7 +46,7 @@ function intent(DOM, HTTP) {
 function main ({DOM, HTTP}) {
     return {
         DOM: view(model(intent(DOM, HTTP))),
-        HTTP: state$
+        HTTP: model(intent(DOM, HTTP))
     };
 }
 
