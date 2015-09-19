@@ -44,10 +44,6 @@ function intent(DOM, HTTP) {
 }
 
 function main ({DOM, HTTP}) {
-
-    let actions = intent(DOM, HTTP);
-    let state$ = model(actions);
-
     return {
         DOM: view(model(intent(DOM, HTTP))),
         HTTP: state$
