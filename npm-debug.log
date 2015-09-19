@@ -1,0 +1,42 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'run', 'app' ]
+2 info using npm@3.3.3
+3 info using node@v4.1.0
+4 verbose run-script [ 'preapp', 'app', 'postapp' ]
+5 info lifecycle cyclejs-starter@1.0.0~preapp: cyclejs-starter@1.0.0
+6 silly lifecycle cyclejs-starter@1.0.0~preapp: no script for preapp, continuing
+7 info lifecycle cyclejs-starter@1.0.0~app: cyclejs-starter@1.0.0
+8 verbose lifecycle cyclejs-starter@1.0.0~app: unsafe-perm in lifecycle true
+9 verbose lifecycle cyclejs-starter@1.0.0~app: PATH: /usr/lib/node_modules/npm/bin/node-gyp-bin:/home/vishnu/Repos/web/hello-cycle/node_modules/.bin:/home/vishnu/.gem/ruby/2.2.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/java/bin:/opt/java/db/bin:/opt/java/jre/bin:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/vishnu/bin/:/usr/share/eclipse:/home/vishnu/bin/:/usr/share/eclipse:/home/vishnu/Android/Sdk/platform-tools:/home/vishnu/Android/Sdk/tools:/home/vishnu/.cabal/bin
+10 verbose lifecycle cyclejs-starter@1.0.0~app: CWD: /home/vishnu/Repos/web/hello-cycle
+11 silly lifecycle cyclejs-starter@1.0.0~app: Args: [ '-c', './node_modules/gulp/bin/gulp.js' ]
+12 silly lifecycle cyclejs-starter@1.0.0~app: Returned: code: 1  signal: null
+13 info lifecycle cyclejs-starter@1.0.0~app: Failed to exec app script
+14 verbose stack Error: cyclejs-starter@1.0.0 app: `./node_modules/gulp/bin/gulp.js`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (/usr/lib/node_modules/npm/lib/utils/lifecycle.js:233:16)
+14 verbose stack     at emitTwo (events.js:87:13)
+14 verbose stack     at EventEmitter.emit (events.js:172:7)
+14 verbose stack     at ChildProcess.<anonymous> (/usr/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+14 verbose stack     at emitTwo (events.js:87:13)
+14 verbose stack     at ChildProcess.emit (events.js:172:7)
+14 verbose stack     at maybeClose (internal/child_process.js:817:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+15 verbose pkgid cyclejs-starter@1.0.0
+16 verbose cwd /home/vishnu/Repos/web/hello-cycle
+17 error Linux 4.1.6-1-ARCH
+18 error argv "/usr/bin/node" "/usr/bin/npm" "run" "app"
+19 error node v4.1.0
+20 error npm  v3.3.3
+21 error code ELIFECYCLE
+22 error cyclejs-starter@1.0.0 app: `./node_modules/gulp/bin/gulp.js`
+22 error Exit status 1
+23 error Failed at the cyclejs-starter@1.0.0 app script './node_modules/gulp/bin/gulp.js'.
+23 error This is most likely a problem with the cyclejs-starter package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     ./node_modules/gulp/bin/gulp.js
+23 error You can get their info via:
+23 error     npm owner ls cyclejs-starter
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
